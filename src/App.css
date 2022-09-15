@@ -6,18 +6,18 @@ html {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  background: #1A1B21;
-  width: 252.7px;
-  height: 468px;
+  background: #333;
+  width: 252.5px;
+  height: 715px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.5);
+  border: 0.5px solid #888;
 }
 
 body {
   position: absolute;
   width: 550px;
   height: 868px;
-  left: 65px;
-  top: 53px;
-  background: #23252C;
 }
 
 .logo {
@@ -59,7 +59,7 @@ body {
   position: absolute;
   width: 317px;
   height: 317px;
-  left: 116px;
+  left: 116.5px;
   top: 44px;
   object-fit: cover;
   background: url(.png);
@@ -118,6 +118,10 @@ body {
   text-align: center;
 
   color: #F5F5F5;
+}
+
+.portfolio a:hover {
+  color: #F3BF99;
 }
 
 .button-mail {
@@ -251,11 +255,11 @@ body {
 
 .footer {
   position: absolute;
-  width: 317px;
+  width: 316px;
   height: 64px;
-  left: 116px;
+  left: 117px;
   top: 760px;
-  background: #161619;
+  background: #202020;
   border-radius: 0px 0px 10px 10px;
   display: flex;
   justify-content: center;
