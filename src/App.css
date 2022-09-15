@@ -6,6 +6,9 @@ html {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  background: #1A1B21;
+  width: 252.7px;
+  height: 468px;
 }
 
 body {
@@ -14,7 +17,7 @@ body {
   height: 868px;
   left: 65px;
   top: 53px;
-  background: #1A1B21;
+  background: #23252C;
 }
 
 .logo {
@@ -54,97 +57,98 @@ body {
 
 .profil-picture {
   position: absolute;
-width: 317px;
-height: 317px;
-left: 116px;
-top: 44px;
-object-fit: cover;
-background: url(.png);
-border-radius: 10px 10px 0px 0px;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  object-fit: cover;
+  background: url(.png);
+  border-radius: 10px 10px 0px 0px;
 }
 
 .name {
   position: absolute;
-width: 178.06px;
-height: 25.81px;
-left: 186px;
-top: 382px;
+  width: 178.06px;
+  height: 25.81px;
+  left: 186px;
+  top: 362px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 30px;
-text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .function {
 
-position: absolute;
-width: 178.06px;
-height: 14.19px;
-left: 186px;
-top: 414px;
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 186px;
+  top: 404px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12.8px;
-line-height: 15px;
-text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
 
-color: #F3BF99;
+  color: #F3BF99;
 }
 
 .portfolio a {
   position: absolute;
-width: 228px;
-height: 16px;
-left: 161px;
-top: 437px;
-margin-top: 8px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 150%;
-/* identical to box height, or 15px */
+  width: 228px;
+  height: 16px;
+  left: 161px;
+  top: 430px;
+  margin-top: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
 
-text-align: center;
+  text-align: center;
 
-color: #F5F5F5;
+  color: #F5F5F5;
 }
 
 .button-mail {
   box-sizing: border-box;
 
-/* Auto layout */
+  /* Auto layout */
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 9px 13px 9px 11px;
-gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  font-size: 13px;
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 468px;
 
-position: absolute;
-width: 115px;
-height: 34px;
-left: 151px;
-top: 468px;
+  /* white */
 
-/* white */
+  background: #FFFFFF;
+  /* gray/300 */
 
-background: #FFFFFF;
-/* gray/300 */
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
 
-border: 1px solid #D1D5DB;
-/* shadow/sm */
-
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #333;
 }
 
 .button-mail:hover {
@@ -154,23 +158,23 @@ border-radius: 6px;
 
 .button-linkedin {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 9px 13px 9px 11px;
-gap: 8px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  font-size: 13px;
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 283px;
+  top: 468px;
 
-position: absolute;
-width: 115px;
-height: 34px;
-left: 283px;
-top: 468px;
-
-background: #5093E2;
-/* shadow/sm */
-color: #fff;
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px;
+  background: #5093E2;
+  /* shadow/sm */
+  color: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }
 
 .button-linkedin:hover {
@@ -183,7 +187,7 @@ border-radius: 6px;
   width: 242.71px;
   height: 21px;
   left: 152px;
-  top: 535px;
+  top: 505px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -195,56 +199,54 @@ border-radius: 6px;
 
 .about-text {
   position: absolute;
-width: 247px;
-height: 61px;
-left: 152px;
-top: 561px;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 535px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 150%;
-/* or 15px */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
 
-
-color: #DCDCDC;
+  color: #DCDCDC;
 }
 
 .interests {
   position: absolute;
-width: 242.71px;
-height: 21px;
-left: 152px;
-top: 649px;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 640px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-/* or 24px */
 
-
-color: #F5F5F5;
+  color: #F5F5F5;
 }
 
 .interests-text {
   position: absolute;
-width: 247px;
-height: 61px;
-left: 152px;
-top: 675px;
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 670px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 10.24px;
-line-height: 150%;
-/* or 15px */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
 
 
-color: #DCDCDC;
+  color: #DCDCDC;
 }
 
 .footer {
@@ -268,8 +270,9 @@ color: #DCDCDC;
   top: 89.75%;
   bottom: 7.37%;
   color: #918e9b;
-}
-
-.card-content {
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 8px;
 }

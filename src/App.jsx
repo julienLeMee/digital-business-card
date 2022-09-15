@@ -1,4 +1,5 @@
 import reactLogo from './assets/react.svg'
+import Picture from '../components/Picture'
 import Info from '../components/Info'
 import About from '../components/About'
 import Interests from '../components/Interests'
@@ -8,7 +9,8 @@ import './App.css'
 export default function App() {
   return (
     <div className="App">
-      <div className="card-content">
+      <Picture />
+      <div className='card-content'>
         <Info />
         <About />
         <Interests />
